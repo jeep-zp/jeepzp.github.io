@@ -23,17 +23,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[hexo 主页文章数翻页设置]]></title>
-    <url>%2F2017%2F08%2F18%2F%E6%8A%80%E6%9C%AF1%2F</url>
-    <content type="text"><![CDATA[前面查看了很多的资料也没有在网上看见关于hexo设置翻页的教程，后来折腾了半天才发现，原来hexo自己已经可以实现翻页，不需要外部插件的支持。于是自己开始写一个简单操作的 教程。 —— 效果第一步首先查看自己hexo的版本。在自己博客所在文件夹右键，选择Git Base Herecode1hexo v显示出版本信息。第二步到hexo 的config.yml中找到：1234index_generator: path: &apos;&apos; per_page: 5 order_by: -datepath: 指的是你设置的页面，主页是默认选项。per_page:指的是你设置的需要显示的文章数。order_by:指的是按时间的排序。第三步hexo cleanhexo ghexo s运行后查看效果。]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[时光]]></title>
     <url>%2F2017%2F08%2F18%2F%E6%97%B6%E5%85%89%2F</url>
     <content type="text"><![CDATA[你是否还能够再次想起花瓣铺满纯白的画面你轻抚着我的脸擦去我感动的泪说要一起看逝水流年回忆中呢喃依稀在耳畔咿呀学语可爱的模样岁月将你从怀里送往未知的明天那个微笑竟是永远相册里那些褪色的画斑驳的过往很多没说完的话脑海中怀念的冲动不停的翻涌流动着牵挂怎能遗忘我想抓住时光岁月的泪却沉在了眼眶顺着心的方向散开的回忆铺成了网多想抓住时光留住所有美好的过往只愿记忆之中独留你的陪伴]]></content>
@@ -42,6 +31,17 @@
       </categories>
       <tags>
         <tag>想想</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo 主页文章数翻页设置]]></title>
+    <url>%2F2017%2F08%2F18%2F%E6%8A%80%E6%9C%AF1%2F</url>
+    <content type="text"><![CDATA[前面查看了很多的资料也没有在网上看见关于hexo设置翻页的教程，后来折腾了半天才发现，原来hexo自己已经可以实现翻页，不需要外部插件的支持。于是自己开始写一个简单操作的 教程。 —— 效果第一步首先查看自己hexo的版本。在自己博客所在文件夹右键，选择Git Base Herecode1hexo v显示出版本信息。第二步到hexo 的config.yml中找到：1234index_generator: path: &apos;&apos; per_page: 5 order_by: -datepath: 指的是你设置的页面，主页是默认选项。per_page:指的是你设置的需要显示的文章数。order_by:指的是按时间的排序。第三步hexo cleanhexo ghexo s运行后查看效果。]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
